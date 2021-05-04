@@ -18,7 +18,8 @@ echo %str%
 
 cd /d %str%:
 
-rem "Add anything you want in your volume"
-start Disable.bat
+rem "Add anything you want to do in your volume"
+start something.bat
+rem "In this case, this batch will start your another batch in the disk"
 
 pause
